@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+/********** Reset Default **********/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: .75rem 0;
+    line-height: 1.5;
+}
+
+/************* Utility Classes **************/
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.text-primary {
+    color: #900;
+}
+
+.big-heading {
+    font-size: 4rem;
+    margin-bottom: .6rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2.5rem;
+    margin-bottom: .7rem;
+    line-height: 1.1;
+}
+
+.show-description {
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.btn {
+    color: #fff;
+    border: solid 1px #fff;
+    padding: .7rem 2rem;
+    font-size: 1.3;
+    display: block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.brand-list {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.brand-list li {
+    margin-bottom: .7rem;
+    border-bottom: dotted #555 1px;
+}
+
+.submit-button {
+    background-color: #444;
+    padding: .7rem 4rem;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+/**************** Home Page *****************/
+/**** Navbar ****/
+#navbar {
+    background: #111;
+    position: sticky;
+    top: 0;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: .75rem;
+    margin: 0 .25rem;
+}
+
+#navbar ul li a:hover{
+    background-color: #935;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+/**** Landing Page Showcase ****/
+#showcase {
+    background: #333 url(../img/showcase-2.jpg) no-repeat center center/cover;
+    height: 92vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+    /* Overlay */
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    padding-bottom: 15rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**** categories section ****/
+#categories {
+    height: 100vh;
+    background: #f4f4f4 url(../img/categories-2.jpg) no-repeat center center/cover;
+}
+
+#categories .categories-background {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#categories .container {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#categories .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#categories .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#categories .items .item i {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: .8rem;
+    color: #fff;
+}
+
+/**** History Of Supercar ****/
+#history {
+    display: flex;
+    background-color: #333;
+    height: 100vh;
+}
+
+#history div {
+    flex: 1;
+}
+
+#history .history-img {
+    background: url(../img/history.jpg) no-repeat center center/cover;
+}
+
+#history .history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+#history .history-content p {
+    margin-bottom: 2.5rem;
+}
+
+/**** History Of Supercar ****/
+#contact {
+    height: 100vh;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+}
+
+#contact .map,
+#contact .contact-content{
+    flex: 1;
+    height: 100%;
+}
+
+#contact .contact-content {
+    display: flex;
+    align-items: center;
+}
+
+#contact .contact-form {
+    padding: 2rem;
+    width: 100%;
+}
+
+#contact  .contact-form .form-group {
+    margin: 1rem 0;
+}
+
+#contact .contact-form form {
+    margin-top: 2rem;
+}
+
+#contact .contact-form .form-group label {
+    display: block;
+    margin-bottom: .2rem;
+}
+
+#contact .contact-form .form-group input {
+    padding: .5rem;
+    width: 90%;
+}
+
+#contact .contact-form .form-group textarea {
+    padding: .5rem;
+    height: 7rem;
+    width: 90%;
+}
+
+#contact .contact-form .form-group textarea, 
+#contact .contact-form .form-group input {
+    outline: none;
+    border: solid 1px #aaa;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+#contact .contact-form .form-group textarea:focus, 
+#contact .contact-form .form-group input:focus {
+    outline: none;
+    border: solid 1px #222;
+}
