@@ -6,20 +6,20 @@
     <meta name="description" content="This is supercar website.">
     <meta name="keywords" content="supercars, car, supercar">
     <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" media="screen and (max-width: 768px) " href="css/mobile.css.css">
-    <link rel="stylesheet" media="screen and (min-width: 1100px) " href="css/widescreen.css.css">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px) " href="css/mobile.css.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px) " href="css/widescreen.css.css">
     <title>Best SuperCars In The World</title>
 </head>
 
 <body id="home">
-    <!-- Navigation Bar -->
+
+    <!-- Landing Page Showcase -->
+    <header id="showcase">
+        <!-- Navigation Bar -->
     <nav id="navbar">
-        <h1 class="logo">
-            <span class="text-primary">
-                <i class="fas fa-car"></i> Super
-            </span>Car
-        </h1>
+        <h1 class="logo">SuperDon</h1>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#categories">Categories</a></li>
@@ -27,9 +27,6 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Landing Page Showcase -->
-    <header id="showcase">
         <div class="showcase-content">
             <h1 class="big-heading">
                 Supercars
@@ -37,7 +34,7 @@
             <p class="show-description">
                 If You Want Super Speed, You Need A Supercar Man!
             </p>
-            <a href="#" class="btn">Find Out</a>
+            <a target="_blank" href="https://www.google.com/search?q=supercar&rlz=1C1CHZL_enBD879BD880&sxsrf=ALeKk01VRUc7IdNmp3kAdAHmkqTeAo03pA:1585318969918&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiz1rqw7broAhXxxDgGHZdNCKEQ_AUoAXoECBMQAw&biw=1364&bih=697" class="btn">Find Out</a>
         </div>
     </header>
 
@@ -51,21 +48,21 @@
                         <i class="fas fa-car fa-2x"></i>
                         <div>
                             <h2>Electric</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro?</p>
+                            <p>For the past decade, electric supercars have shocked the world. Now big car companies are making beautiful and powerful supercars.</p>
                         </div>
                     </div>
                     <div class="item">
                         <i class="fas fa-car fa-2x"></i>
                         <div>
                             <h2>Engine</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro?</p>
+                            <p>Actually, supercars mean engine cars. Today every supercar has very powerful different type of engine. And those look like an alien.</p>
                         </div>
                     </div>
                     <div class="item">
                         <i class="fas fa-car fa-2x"></i>
                         <div>
                             <h2>Jet Engine</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, porro?</p>
+                            <p>And lastly, If nothing works for you then make your own design Jet Car man. It is just madness. If you have a jet car you will be the Ground King.</p>
                         </div>
                     </div>
                 </div>
@@ -141,10 +138,17 @@
         <p>&copy; 2020, All Design Reserved</p>
     </footer>
 
-    <!-- Google Map API key -->
+    <!-- Jquery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Google Map API key Or local Js file -->
     <script src="js/main.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyfmvTO1M6QJsOJP9P2in3c3my1Ka176s&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtT4RzqlXMDiJTCX44wNS-9TnVHtMBfJc&callback=initMap"
     async defer></script>
 
 </body>

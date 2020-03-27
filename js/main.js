@@ -1,7 +1,7 @@
 // Initialize and add the map
 function initMap() {
     // Your location
-    const loc = { lat: 42.361145, lng: -71.057083 };
+    const loc = { lat: 23.777176, lng: 90.399452 };
     // Centered map on location
     const map = new google.maps.Map(document.querySelector('.map'), {
       zoom: 14,
@@ -12,3 +12,28 @@ function initMap() {
   }
   
 
+// // Sticky menu background
+// window.addEventListener('scroll', function() {
+//   if (window.scrollY > 0) {
+//     document.querySelector('#navbar').style.opacity = 0.1;
+//   } else {
+//     document.querySelector('#navbar').style.opacity = .1;
+//   }
+// });
+
+
+// Smooth Scrolling
+$('#navbar a, .btn').on('click', function(event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top
+      },
+      800
+    );
+  }
+});
