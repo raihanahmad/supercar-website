@@ -326,3 +326,15 @@ p {
     background-color: #111;
     color: #ddd;
 }
+
+#main-footer .creator {
+    font-size: .8rem;
+    color: #ddd;
+}
+
+#main-footer .creator a {
+    font-size: .8rem;
+    color: #ddd;
+    border-bottom: dotted 1px #999;
+}
+
