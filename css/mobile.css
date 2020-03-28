@@ -1,0 +1,112 @@
+/****** All SmartPhone ******/
+@media (max-width: 500px) {
+    /* navbar */
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding-top: .5rem;        
+    }
+
+    #navbar .logo {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    #navbar ul li a {
+        padding: .5rem;
+        margin: 0 .25rem;
+    }
+
+    /* showcase */
+    .btn {
+        color: #fff;
+        border: solid 1px #fff;
+        padding: .35rem 1.4rem;
+        font-size: .8rem;
+    }
+
+    #showcase {
+        background: #333 url(../img/showcase-mobile.jpg) no-repeat center center/cover;
+    }
+
+    .big-heading {
+        font-size: 3rem;
+        margin-bottom: .6rem;
+    }
+
+    .show-description {
+        font-size: 1rem;
+        margin-bottom: 1.4rem;
+    }
+
+    #showcase .showcase-content {
+        padding-bottom: 6rem;
+    }
+    
+    /* categories */
+    #categories {
+        height: 140vh;
+    }
+
+    #categories .categories-background .container .m-heading {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    #categories .categories-background .container .items{
+        padding: 0;
+        margin: 0 0;
+    }
+
+    #categories .categories-background .container .items .item{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    /* history */
+    #history {
+        height: 150vh;
+    }
+
+    /* contact */
+    #contact {
+        height: 150vh;
+    }
+
+    #contact .contact-content{
+        flex: 2;
+    }
+
+    /* Company */
+    #best-company h2 {
+        margin: 0 2rem 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    #best-company .brands-logo img {
+        width: 80%;
+    }
+
+    #best-company .brands-logo div:last-child {
+        display: none;
+    }
+}
+
+@media (max-height: 570px) {
+    #categories {
+        height: 170vh;
+    }
+}
+
+
+@media (max-height: 670px) {
+    #contact {
+        height: 170vh;
+    }
+
+    #categories {
+        height: 150vh;
+    }
+}

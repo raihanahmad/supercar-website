@@ -216,7 +216,7 @@ p {
 }
 
 #history .history-img {
-    background: url(../img/history.jpg) no-repeat center center/cover;
+    background: url(../img/history-mobile.jpg) no-repeat center center/cover;
 }
 
 #history .history-content {
@@ -234,7 +234,7 @@ p {
 /**** Contact Section ****/
 #contact {
     height: 100vh;
-    background-color: #eee;
+    background-color: #E8E8E8;
     color: #333;
     display: flex;
 }
