@@ -69,10 +69,11 @@
         height: 150vh;
     }
 
-    /* contact */
-    #contact {
-        height: 150vh;
+    #history .history-content .m-heading {
+        line-height: 1.4;
     }
+
+    /* contact */
 
     #contact .contact-content{
         flex: 2;
@@ -102,9 +103,6 @@
 
 
 @media (max-height: 670px) {
-    #contact {
-        height: 170vh;
-    }
 
     #categories {
         height: 150vh;
