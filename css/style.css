@@ -129,7 +129,7 @@ p {
     margin: 0 .25rem;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     transition: .4s;
@@ -167,7 +167,7 @@ p {
 }
 
 #categories .categories-background {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
 }
 
@@ -184,7 +184,7 @@ p {
     justify-content: center;
 }
 
-#categories .items{
+#categories .items {
     display: flex;
     padding: 1rem;
     margin: 0 1.5rem;
@@ -193,7 +193,7 @@ p {
 #categories .items .item {
     flex: 1;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 2.5rem;
 }
 
 #categories .items .item i {
@@ -240,7 +240,7 @@ p {
 }
 
 #contact .map,
-#contact .contact-content{
+#contact .contact-content {
     flex: 1;
     height: 100%;
 }
@@ -255,7 +255,7 @@ p {
     width: 100%;
 }
 
-#contact  .contact-form .form-group {
+#contact .contact-form .form-group {
     margin: 1rem 0;
 }
 
@@ -279,7 +279,7 @@ p {
     width: 90%;
 }
 
-#contact .contact-form .form-group textarea, 
+#contact .contact-form .form-group textarea,
 #contact .contact-form .form-group input {
     outline: none;
     border: solid 1px #aaa;
@@ -288,7 +288,7 @@ p {
     background: none;
 }
 
-#contact .contact-form .form-group textarea:focus, 
+#contact .contact-form .form-group textarea:focus,
 #contact .contact-form .form-group input:focus {
     outline: none;
     border: solid 1px #222;
@@ -297,11 +297,11 @@ p {
 /**** Best Company Logo Section ****/
 #best-company {
     background-color: #111;
-    padding: 3rem 0 2rem;
+    padding: 4rem 0 3rem;
 }
 
 #best-company h2 {
-    color: #ccc;
+    color: #aaa;
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2rem;
@@ -315,6 +315,7 @@ p {
     display: block;
     margin: auto;
     width: 60%;
+    opacity: .7;
 }
 
 /**** Main Footer Section ****/
@@ -324,18 +325,17 @@ p {
     text-align: center;
     /* background-color: #0a0a0a; */
     background-color: #111;
-    color: #ddd;
+    color: #bbb;
 }
 
 #main-footer .creator {
     font-size: .8rem;
-    color: #ddd;
+    color: #bbb;
     margin-top: 1.4rem;
 }
 
 #main-footer .creator a {
     font-size: .8rem;
-    color: #ddd;
+    color: #bbb;
     border-bottom: dotted 1px #999;
 }
-
