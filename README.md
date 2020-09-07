@@ -1,2 +1,2 @@
 # supercar-website
-I love this website
+CSS3, HTML, jQuery, JS(API)
